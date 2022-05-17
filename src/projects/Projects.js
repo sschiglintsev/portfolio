@@ -13,6 +13,7 @@ export const Projects = () => {
                     <Project title={"JS"} description={"wer wer wer rfsd sdf rte rtert e rte rte rte rte rt erte rte rt  ert"}/>
                     <Project title={"JS"} description={"wer wer wer rfsd sdf rte rtert e rte rte rte rte rt erte rte rt  ert"}/>
                     <Project title={"JS"} description={"wer wer wer rfsd sdf rte rtert e rte rte rte rte rt erte rte rt  ert"}/>
+                    <Project title={"JS"} description={"wer wer wer rfsd sdf rte rtert e rte rte rte rte rt erte rte rt  ert"}/>
                 </div>
             </div>
         </div>
