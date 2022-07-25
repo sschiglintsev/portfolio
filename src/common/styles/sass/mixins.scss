@@ -1,0 +1,100 @@
+@import "variables";
+
+@mixin text ($fontSize,$color) {
+  font-family:$textFont;
+  font-size: $fontSize;
+  color: $color;
+}
+
+@mixin block ($color){
+
+  min-height: 100vh;
+  background-color: $color;
+}
+
+@mixin container {
+
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+@mixin mainTitle {
+    width: 100%;
+    height: 200px;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none;
+    margin-top: 30px;
+}
+
+@mixin titleFront {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+  display: block;
+}
+
+@mixin titleH3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 35px;
+  position: relative;
+  color: #fff;
+  line-height: 1.4;
+  font-family: 'Poppins', sans-serif;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: none;
+
+  @media screen and (max-width: 630px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 21px;
+  }
+}
+ @mixin titleBG {
+   position: absolute;
+   left: -6px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 100px;
+   font-weight: 900;
+   opacity: .1;
+   line-height: 0;
+   border: 0;
+   margin: 0;
+   padding: 0;
+   vertical-align: baseline;
+   outline: none;
+   -webkit-text-stroke: 1px #fff;
+   color: transparent;
+   @media screen and (max-width: 630px) {
+     font-size: 80px;
+   }
+   @media screen and (max-width: 500px) {
+     font-size: 60px;
+   }
+   @media screen and (max-width: 380px) {
+     font-size: 40px;
+   }
+ }

@@ -1,0 +1,45 @@
+@import "../common/styles/sass/mixins";
+
+.projectsBlock {
+  @include block($bgFirstColor);
+
+  .projectsContainer {
+    @include container;
+
+    .main_title {
+      @include mainTitle;
+
+      .title {
+        @include titleFront;
+
+        & h3 {
+          @include titleH3;
+
+          .bg {
+            @include titleBG;
+          }
+        }
+      }
+    }
+
+    .projects {
+      border: 1px solid;
+      background-color: #1f1f1f;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      @media screen and (max-width: 627px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 627px) {
+  .projects {
+    justify-content: center;
+  }
+}

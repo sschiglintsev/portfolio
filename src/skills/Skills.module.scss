@@ -1,0 +1,43 @@
+@import "../common/styles/sass/mixins";
+
+
+.skillsBlock {
+  @include block($bgSecondColor);
+
+  .skillsContainer {
+    @include container;
+
+    .main_title {
+      @include mainTitle;
+
+      .title {
+        @include titleFront;
+
+        & h3 {
+          @include titleH3;
+
+          .bg {
+            @include titleBG;
+          }
+        }
+      }
+    }
+
+    .skills {
+      background-color: #111;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      @media screen and (max-width: 627px) {
+        justify-content: center;
+      }
+    }
+  }
+
+}
+
+
+
+
