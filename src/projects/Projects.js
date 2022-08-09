@@ -27,7 +27,7 @@ export const Projects = () => {
     }
 
     return (
-        <div className={style.projectsBlock}>
+        <div className={style.projectsBlock} id="projects">
             <div className={style.projectsContainer}>
                 <div className={style.main_title}>
                     <div className={style.title}>
@@ -39,19 +39,24 @@ export const Projects = () => {
                 <div className={style.projects}>
                     <Project title={"Social Network"}
                              description={"Small social network"}
-                             style={social}/>
+                             style={social}
+                             url={"https://github.com/sschiglintsev/samurai-way-main"}/>
                     <Project title={"TODO List"}
                              description={"Task storage project"}
-                             style={todoList}/>
+                             style={todoList}
+                             url={"https://github.com/sschiglintsev/ToDo-LIST-React"}/>
                     <Project title={"Landiтg Page"}
                              description={"Landing Page for the production of partitions in the loft style"}
-                             style={landing}/>
+                             style={landing}
+                             url={"http://chigross.ru/"}/>
                     <Project title={"Cards"}
                              description={"Question cards"}
-                             style={cards}/>
+                             style={cards}
+                             url={"https://github.com/sschiglintsev/cards-front-react"}/>
                     <Project title={"SlideMaster"}
                              description={"Oil Drilling Simulator"}
-                             style={sm}/>
+                             style={sm}
+                             url={"https://test.masterslide.ru/"}/>
                 </div>
             </div>
         </div>
