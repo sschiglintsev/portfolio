@@ -9,6 +9,10 @@
     align-items: center;
     box-sizing: border-box;
     margin-bottom: 20px;
+    @media screen and (max-width: 600px) {
+        width: 150px;
+        margin: 5px;
+    }
     .image {
         width: 250px;
         height: 250px;
@@ -21,6 +25,10 @@
         background-position: center;
         background-repeat: no-repeat;
         position: relative;
+        @media screen and (max-width: 600px) {
+            width: 150px;
+            height: 150px;
+        }
         &::before {
             position: absolute;
             content: '';
@@ -41,6 +49,9 @@
     }
     .projectInfo {
         padding: 25px 20px;
+        @media screen and (max-width: 600px) {
+            padding: 10px 10px;
+        }
         .projectTitle {
             display: flex;
             align-items: center;
@@ -49,6 +60,10 @@
             position: relative;
             @include text(13px, $textColor);
             font-style: italic;
+            @media screen and (max-width: 600px) {
+                @include text(8px, $textColor);
+                margin-bottom: 10px;
+            }
         }
         .description {
             @include text(17px,$primaryColor);
@@ -58,6 +73,9 @@
             font-weight: 600;
             display: inline-block;
             transition: all .3s ease;
+            @media screen and (max-width: 600px) {
+                @include text(10px, $primaryColor);
+            }
         }
     }
 }

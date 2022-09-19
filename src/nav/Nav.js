@@ -8,13 +8,13 @@ export const Nav = () => {
             <a className={style.ref} href="">
                 <span className={style.first}>Main</span>
             </a>
-            <a className={style.ref} href="">
+            <a className={style.ref} href="#skills">
                 <span className={style.first}>Skills</span>
                 </a>
-            <a className={style.ref} href="">
+            <a className={style.ref} href="projects">
                 <span className={style.first}>Project</span>
             </a>
-            <a className={style.ref} href="">
+            <a className={style.ref} href="contacts">
                 <span className={style.first}>Contact</span>
             </a>
         </div>

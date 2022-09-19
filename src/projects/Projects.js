@@ -48,7 +48,7 @@ export const Projects = () => {
                     <Project title={"Landiтg Page"}
                              description={"Landing Page for the production of partitions in the loft style"}
                              style={landing}
-                             url={"http://chigross.ru/"}/>
+                             url={"http://loft.chigross.ru/"}/>
                     <Project title={"Cards"}
                              description={"Question cards"}
                              style={cards}

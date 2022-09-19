@@ -18,14 +18,16 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
   }
 
   .name {
     color: $bgSecondColor;
     font-size: 25px;
+    @media screen and (max-width: 450px) {
+      font-size: 20px;
+    }
 
     .h1 {
       font-size: 80px;
@@ -38,10 +40,14 @@
       padding: 0;
       line-height: 1.1;
 
-      -webkit-text-stroke: 0.5px #fff;
-      color: transparent;
+      -webkit-text-stroke: 1px #fff;
+      color: #767676;
 
-      @media screen and (max-width: 570px) {
+      @media screen and (max-width: 600px) {
+        font-size: 60px;
+      }
+      @media screen and (max-width: 450px) {
+        -webkit-text-stroke: 0.5px #fff;
         font-size: 40px;
       }
     }
