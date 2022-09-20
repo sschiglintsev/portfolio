@@ -37,6 +37,18 @@ export const Projects = () => {
                     </div>
                 </div>
                 <div className={style.projects}>
+                    <Project title={"SlideMaster"}
+                             description={"Oil Drilling Simulator"}
+                             style={sm}
+                             url={"https://test.masterslide.ru/"}/>
+                    <Project title={"Cards"}
+                             description={"Question cards"}
+                             style={cards}
+                             url={"https://github.com/sschiglintsev/cards-front-react"}/>
+                    <Project title={"Landiтg Page"}
+                             description={"Landing Page for the production of partitions in the loft style"}
+                             style={landing}
+                             url={"http://loft.chigross.ru/"}/>
                     <Project title={"Social Network"}
                              description={"Small social network"}
                              style={social}
@@ -45,18 +57,7 @@ export const Projects = () => {
                              description={"Task storage project"}
                              style={todoList}
                              url={"https://github.com/sschiglintsev/ToDo-LIST-React"}/>
-                    <Project title={"Landiтg Page"}
-                             description={"Landing Page for the production of partitions in the loft style"}
-                             style={landing}
-                             url={"http://loft.chigross.ru/"}/>
-                    <Project title={"Cards"}
-                             description={"Question cards"}
-                             style={cards}
-                             url={"https://github.com/sschiglintsev/cards-front-react"}/>
-                    <Project title={"SlideMaster"}
-                             description={"Oil Drilling Simulator"}
-                             style={sm}
-                             url={"https://test.masterslide.ru/"}/>
+
                 </div>
             </div>
         </div>

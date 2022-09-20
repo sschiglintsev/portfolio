@@ -21,52 +21,127 @@
         }
       }
     }
-
-    .contacts {
-      background-color: #111;
-      width: 100%;
+    .box {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-
-      .form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        @media screen and (max-width: 300px) {
-          width: 100%;
+      align-items: center;
+      width: 600px;
+      .communication {
+        color: white;
+        text-decoration: none;
+        .box1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #0e76a8;
+          border-radius: 10px;
+          padding: 12px;
+          margin-bottom: 15px;
+          font-size: 22px;
+          font-weight: 500;
+          cursor: pointer;
+          line-height: 1.2;
+          height: auto;
+          min-height: 60px;
+          width: 500px;
         }
-        .inputForm {
-          width: 100%;
-          padding: 12px 20px;
-          margin: 8px 0;
-          box-sizing: border-box;
-          border-radius: 4px;
-
+        .box2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #0088cc;
+          border-radius: 10px;
+          padding: 12px;
+          margin-bottom: 15px;
+          font-size: 22px;
+          font-weight: 500;
+          cursor: pointer;
+          line-height: 1.2;
+          height: auto;
+          min-height: 60px;
+          width: 500px;
         }
-          .btn {
-            width: 180px;
-            height: 60px;
-            cursor: pointer;
-            background: transparent;
-            border: 1px solid snow;
-            outline: none;
-            transition: 1s ease-in-out;
-            margin-top: 10px;
-          }
-          .btn:hover {
-            transition: 1s ease-in-out;
-            background: grey;
-          }
-          .btn span {
-            color: white;
-            font-size: 18px;
-            font-weight: 100;
-          }
-
+        .box3 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #25d366;
+          border-radius: 10px;
+          padding: 12px;
+          margin-bottom: 15px;
+          font-size: 22px;
+          font-weight: 500;
+          cursor: pointer;
+          line-height: 1.2;
+          height: auto;
+          min-height: 60px;
+          width: 500px;
+        }
+        .box4 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          //background-color: #0077FF;
+          border: solid 2px;
+          border-radius: 10px;
+          padding: 12px;
+          margin-bottom: 15px;
+          font-size: 22px;
+          font-weight: 500;
+          cursor: pointer;
+          line-height: 1.2;
+          height: auto;
+          min-height: 60px;
+          width: 500px;
+        }
       }
     }
+    //.contacts {
+    //  background-color: #111;
+    //  width: 100%;
+    //  display: flex;
+    //  justify-content: center;
+    //
+    //  .form {
+    //    display: flex;
+    //    flex-direction: column;
+    //    justify-content: center;
+    //    align-items: center;
+    //    width: 80%;
+    //    @media screen and (max-width: 300px) {
+    //      width: 100%;
+    //    }
+    //    .inputForm {
+    //      width: 100%;
+    //      padding: 12px 20px;
+    //      margin: 8px 0;
+    //      box-sizing: border-box;
+    //      border-radius: 4px;
+    //
+    //    }
+    //      .btn {
+    //        width: 180px;
+    //        height: 60px;
+    //        cursor: pointer;
+    //        background: transparent;
+    //        border: 1px solid snow;
+    //        outline: none;
+    //        transition: 1s ease-in-out;
+    //        margin-top: 10px;
+    //      }
+    //      .btn:hover {
+    //        transition: 1s ease-in-out;
+    //        background: grey;
+    //      }
+    //      .btn span {
+    //        color: white;
+    //        font-size: 18px;
+    //        font-weight: 100;
+    //      }
+    //
+    //  }
+    //}
   }
 }
 
